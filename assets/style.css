@@ -1,0 +1,12 @@
+section label {
+  display: block;
+}
+
+h1 {
+  text-align: center;
+}
+
+section {
+  display: block;
+  margin-inline: auto;
+}
