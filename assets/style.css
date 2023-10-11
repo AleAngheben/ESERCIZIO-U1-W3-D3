@@ -50,6 +50,7 @@ section label {
   font-size: 1.5rem;
   padding-left: 5rem;
   padding-top: 5rem;
+  list-style: square;
 }
 
 .liFromUser {
@@ -77,4 +78,6 @@ section label {
   font-weight: bolder;
   border: 0px;
   border-radius: 40px;
+  margin-left: 0.5rem;
+  font-size: 1rem;
 }
