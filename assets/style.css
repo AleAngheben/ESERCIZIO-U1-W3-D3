@@ -70,3 +70,11 @@ section label {
   border-color: bisque;
   color: #83594a;
 }
+
+.deleteBtn {
+  background-color: red;
+  color: white;
+  font-weight: bolder;
+  border: 0px;
+  border-radius: 40px;
+}

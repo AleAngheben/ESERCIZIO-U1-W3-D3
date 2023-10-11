@@ -14,6 +14,7 @@ window.onload = () => {
     productInput.value = "";
     myList.appendChild(myLi);
     const deleteBtn = document.createElement("button");
+    deleteBtn.className = "deleteBtn";
     deleteBtn.innerText = "X";
     deleteBtn.onclick = function (e) {
       const clickedDeleteBtn = e.target;
