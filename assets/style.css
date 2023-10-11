@@ -1,12 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
+body {
+  background-image: url(./imgs/clouds-1282314_1280.jpg);
+  background-size: cover;
+}
+
 section label {
   display: block;
 }
 
 h1 {
+  font-family: "Patrick Hand", cursive;
+  font-size: 5rem;
   text-align: center;
+  word-spacing: 1rem;
+  color: #614c45;
 }
 
 section {
+  font-weight: bold;
+  color: #83594a;
+  text-align: center;
   display: block;
   margin-inline: auto;
+  width: 600px;
+  border: 2px solid;
+  border-color: bisque;
+  padding-block: 1.5rem;
+  border-radius: 20px;
+  background-color: beige;
+  box-shadow: 5px 9px 7px 2px rgba(0, 0, 0, 0.1);
+}
+
+section label {
+  font-size: 2rem;
+}
+
+#product {
+  width: 80%;
+  margin-top: 0.5rem;
+  padding: 1rem;
+}
+
+#subButton {
+  margin-top: 1rem;
+  padding: 1rem;
+}
+
+#myList {
+  font-size: 1.5rem;
+  padding-left: 5rem;
+  padding-top: 5rem;
+}
+
+.liFromUser {
+  font-size: 2rem;
+}
+
+#subButton {
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 13px;
+  border-color: bisque;
+  color: #83594a;
+  background-color: #fff1d6;
+}
+
+#product {
+  border-radius: 8px;
+  border-color: bisque;
+  color: #83594a;
 }

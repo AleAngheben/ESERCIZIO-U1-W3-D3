@@ -8,7 +8,9 @@ window.onload = () => {
 
     const myList = document.getElementById("myList");
     const myLi = document.createElement("li");
+    myLi.className = "liFromUser";
     myLi.innerText = productInput.value;
+
     productInput.value = "";
     myList.appendChild(myLi);
     const deleteBtn = document.createElement("button");
